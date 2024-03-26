@@ -1,0 +1,133 @@
+
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(41, 45, 62);
+    
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+}
+
+.splash{
+    width: 33vw;
+    height: 100vh;
+}
+
+.intro{
+    font-family: 'Orbitron';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 200px;
+    margin-bottom: 10vh;
+    margin-left: 10vw;
+    color: white;
+}
+
+.form{
+    font-family: 'Orbitron';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+    width: 67vw;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    box-shadow: 0 3px 2px -2px rgba(0, 0, 0, 0.5);
+
+}
+
+input{
+   display: block;
+   margin-bottom: 25px;
+   padding: 5px;
+   border-style: solid;
+   border-radius: 5%;
+   border-color: rgb(255, 255, 255, 0.2);
+   border-width: 2px;
+   width: 300px;
+   color:white;
+   background-color: rgb(41, 45, 62);
+   outline: none;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:focus{
+    border-color: darkcyan;
+    box-shadow: 0 3px 2px -2px rgba(0, 0, 0, 0.5);
+}
+
+label{
+    color: white;
+}
+
+
+.left-box{
+    float: left;
+    margin-right: 100px;
+    margin-left: 10vw;
+}
+
+.right-box{
+    float: left;
+}
+
+.account{
+    color: white;
+    margin-left: 10vw;
+    margin-top: 7vh;
+}
+
+.button{
+    margin-left: 10vw;
+    margin-top: 40px;
+    width: 10vw;
+    height: 5vh;
+    color: white;
+    background-color: darkmagenta;
+    border: 2px solid darkmagenta;
+    border-radius: 15px;
+    font-family: 'Orbitron';
+    font-size: medium;
+    box-shadow: 0 3px 2px -2px rgba(0, 0, 0, 1);
+}
+
+
+a{
+    color: darkmagenta;
+    text-decoration: none;
+}
+
+.banner{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 33vw;
+    height: 200px;
+    position: absolute;
+    margin-top: 25vh;
+}
+.logo{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin-top: calc(25vh);
+    margin-left: calc(1/2 * 33vh - 10vh);
+}
+
+.banner-title{
+    position: absolute;
+    font-family: 'Orbitron';
+    font-size: 90px;
+    color: white;
+    margin-top: calc(25vh + 45px);
+    margin-left: calc(1/2 * 33vh + 15vh);
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <img src="splash.jpg" alt="splash" class="splash">
+    <div class="banner"></div>
+    <img src="logo.png" alt="logo" class="logo">
+    <p class="banner-title">SQ</p>
+    <div class="form">
+        <p class="intro">This is not a real online service <br>but sign up now :)</p>
+
+        <div class="form-container">
+            <form action="POST" class="post-form">
+                <div class="information">
+    
+                    <div class="group1">
+                        <div class="left-box">
+                            <label for="fname">First Name</label>
+                            <input type="text" class="fname">
+                        </div>
+
+                        <div class="right-box">
+                            <label for="lname">Last Name</label>
+                            <input type="text" class="lname">    
+                        </div>                  
+                    </div>
+    
+                    <div class="group2">
+                        <div class="left-box">
+                            <label for="email">Email</label>
+                            <input type="email" class="email">
+                        </div>
+                            
+                        <div class="right-box">
+                            <label for="phone">Phone</label>
+                            <input type="text" class="phone" pattern="(\d{3}-\d{3}-\d{4})">
+                        </div>
+                    </div>
+                    
+                    <div class="group3">
+                        <div class="left-box">
+                            <label for="pass">Password</label>
+                            <input type="password" class="pass">
+                        </div>
+
+                        <div class="right-box">
+                            <label for="cpass">Confirm Password</label>
+                            <input type="password" class="cpass">
+                        </div>
+                    </div>
+                </div>
+    
+                <button type="submit" class="button">Create Account</button>
+            </form>            
+        </div>
+
+        <p class="account">Already have an account? <a href=""> Log in</a></p>
+    </div>
+</body>
+</html>
